@@ -1,0 +1,169 @@
+@font-face {
+			font-family: "BoblicRegular";
+			src: url("../fonts/BoblicRegular/BoblicRegular.eot");
+			src: url("../fonts/BoblicRegular/BoblicRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BoblicRegular/BoblicRegular.woff") format("woff"),
+			url("../fonts/BoblicRegular/BoblicRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+#main {
+  overflow: hidden;
+  width: 1224px;
+  height: 700px;
+  background-color: #f7f7f7;
+}
+
+#block_1 img {
+  align-items: center;
+}
+
+#block_1 ul {
+  display: flex;
+  flex-direction: row;
+  height:100%;
+  list-style: none;
+}
+
+#block_1 ul li {
+  margin-left: 40px;
+  position: relative;
+  top: 36%;
+
+}
+
+#block_1 ul #order {
+  position: relative;
+  top: 36%;
+  height: 25px;
+  margin-left: 160px;
+  display: flex;
+  flex-direction: row;
+}
+
+#line {
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+
+a {
+  font-size: 16pt;
+  font-family: "BoblicRegular";
+  color: #0a0a0b;
+  text-decoration: none;
+  background-image: url('../img/underline.png');
+  background-size: 5px 5px;
+  background-repeat: y-repeat;
+  opacity: 0.7;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+#block_1 {
+  display: flex;
+  flex-direction: row;
+  width: 1024px;
+  height: 144px;
+  position:relative;
+  user-select: none;
+  margin-bottom: 20px;
+  margin-left:100px;
+  margin-right:100px;
+  margin-top: 25px;
+}
+
+#block_2 {
+  width: 100%;
+  height: 556px;
+  color: #0a0a0b;
+  position:relative;
+  user-select: none;
+}
+
+#info {
+  display: flex;
+  flex-direction: row;
+}
+
+#title {
+  text-align: center;
+  font-family: "BoblicRegular";
+  width: 100%;
+  font-size: 28pt;
+  margin-top: 60px;
+}
+
+#text_2 {
+  display: flex;
+  flex-direction: row;
+  font-family: "BoblicRegular";
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+  top: 30px;
+  font-size: 14pt;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+#text_2 p {
+  margin-left: 20px;
+  position: relative;
+  top: 25px;
+  line-height: 1.5;
+}
+
+#poplavok img {
+  width:50px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+#poplavok {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top:-12px;
+  left: -10px;
+}
+
+#arr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#arrow {
+  position: relative;
+  top: 90px;
+  width: 50px;
+}
+
+#arrow_img {
+  position: relative;
+  top: 0px;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+#arrow_img:hover {
+  opacity:1;
+}
